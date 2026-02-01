@@ -14,9 +14,18 @@
 <link rel="stylesheet" href="style.css">
 </head>
 
+<script>
+if ("serviceWorker" in navigator) {
+  navigator.serviceWorker.register("sw.js");
+}
+</script>
+
 <body>
 
 <header class="topbar">TEAM B</header>
+
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#1976d2">
 
 <section class="overtime">
   <div class="label">OVERTIME</div>
