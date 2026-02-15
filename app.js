@@ -201,7 +201,7 @@ function render() {
   if (!brutSalary) {
     salaryDisplay.textContent = "—";
     ticketDisplay.textContent = "";
-    return;
+    //return;
   }
 
   // ===== CALCUL CONTABIL =====

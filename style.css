@@ -183,7 +183,6 @@ footer {
   left: 0;
   right: 0;
 
-  margin: 0;
   padding: 10px 16px;
 
   background: linear-gradient(90deg, #22c55e, #3b82f6);
@@ -192,5 +191,7 @@ footer {
   font-weight: 600;
 
   z-index: 1000;
+
   padding-bottom: calc(10px + env(safe-area-inset-bottom));
 }
+
