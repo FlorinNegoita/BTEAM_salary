@@ -98,17 +98,19 @@ body {
   font-size: 12px;
   font-weight: 600;
   padding: 0 12px;
-  margin: 8px 0;
+  margin: 4px 0 2px 0;  /* mai compact */
 }
+
 
 /* CALENDAR */
 .calendar {
   display: grid;
   grid-template-columns: repeat(7, 1fr);
   gap: 6px;
-  padding: 8px 12px;
-  margin-top: 4px;
+  padding: 6px 12px;
+  margin-top: 0;   /* lipit de weekdays */
 }
+
 
 .day {
   height: 60px;
