@@ -107,7 +107,7 @@ body {
   display: grid;
   grid-template-columns: repeat(7, 1fr);
   gap: 6px;
-  padding: 6px 12px;
+  padding: 1px 12px;
   margin-top: 0;   /* lipit de weekdays */
 }
 
