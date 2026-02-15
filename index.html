@@ -24,12 +24,16 @@ if ("serviceWorker" in navigator) {
 
 <header class="topbar">TEAM B</header>
 
-<link rel="manifest" href="manifest.json">
-<meta name="theme-color" content="#1976d2">
-
 <section class="overtime">
   <div class="label">OVERTIME</div>
   <div id="overtimeText" class="positive"></div>
+</section>
+
+<!-- 🔥 BARA SALARIU PE UN SINGUR RÂND -->
+<section class="salary-bar">
+  <input type="number" id="brutInput" placeholder="Brut" />
+  <div id="ticketDisplay" class="tickets"></div>
+  <div id="salaryDisplay" class="net"></div>
 </section>
 
 <section class="month-nav">
@@ -54,6 +58,7 @@ if ("serviceWorker" in navigator) {
   <span><i class="sc2"></i>SC2</span>
   <span><i class="sc3"></i>SC3</span>
   <span><i class="lib"></i>LIBER</span>
+  <span><i class="CO"></i>CO</span>
 </div>
 
 <footer id="todayFooter"></footer>
